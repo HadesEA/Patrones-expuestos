@@ -6,6 +6,7 @@
 
 - **Código en C#**:
 ```csharp
+using System;
 public class DatabaseConnection
 {
     private static DatabaseConnection instance = null;
@@ -46,6 +47,7 @@ public class Program
 
 - **Código en C#**:
 ```csharp
+using System;
 public abstract class Notification
 {
     public abstract void Send();
@@ -109,6 +111,7 @@ public class Program
 
 - **Código en C#**:
 ```csharp
+using System;
 // Interfaces para productos
 public interface IButton
 {
@@ -212,6 +215,7 @@ public class Program
 
 - **Código en C#**:
 ```csharp
+using System;
 public class Computer
 {
     public string CPU { get; set; }
@@ -275,6 +279,7 @@ public class Program
 
 - **Código en C#**:
 ```csharp
+using System;
 public abstract class Shape
 {
     public string Color { get; set; }
@@ -320,6 +325,7 @@ public class Program
 
 - **Código en C#**:
 ```csharp
+using System;
 // Sistema externo de pagos
 public class ExternalPaymentSystem
 {
@@ -373,6 +379,7 @@ public class Program
 
 - **Código en C#**:
 ```csharp
+using System;
 // Implementación para dibujar en 2D o 3D
 public interface IDrawAPI
 {
@@ -441,6 +448,7 @@ public class Program
 
 - **Código en C#**:
 ```csharp
+using System;
 // Componente base (Archivo o Carpeta)
 public interface IFileComponent
 {
